@@ -1,0 +1,11 @@
+sources:
+  - name: raw_src # this is the source_name
+    database: DBT_PROJ_DB
+    schema: LEARNING_SCHEMA
+
+    tables:
+      - name: CUSTOMERS # this is the table_name
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: PAYMENTS
+      - name: PRODUCTS
